@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="24"
+   height="24"
+   id="svg3006"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="ic_stat_notify_resonator_destroyed.svg"
+   inkscape:export-filename="/home/dre/git/excubitor-client/res/drawable-xhdpi/ic_stat_notify_resonator_destroyed.png"
+   inkscape:export-xdpi="180"
+   inkscape:export-ydpi="180">
+  <defs
+     id="defs3008" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7.5235232"
+     inkscape:cx="21.495091"
+     inkscape:cy="7.2573145"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:grid-bbox="true"
+     inkscape:document-units="px"
+     inkscape:window-width="997"
+     inkscape:window-height="815"
+     inkscape:window-x="245"
+     inkscape:window-y="130"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata3011">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     transform="translate(0,-8)">
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="path3830"
+       sodipodi:cx="37.5"
+       sodipodi:cy="8.5"
+       sodipodi:rx="4.5"
+       sodipodi:ry="4.5"
+       d="m 42,8.5 a 4.5,4.5 0 1 1 -9,0 4.5,4.5 0 1 1 9,0 z"
+       transform="matrix(1.0996667,0,0,1.0996665,-32.289,7.7043355)" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+       d="m 14.618688,22.178819 a 1.0997771,1.0997771 0 0 0 -0.652927,1.890053 l 2.525798,2.525798 -2.525798,2.508615 a 1.0997771,1.0997771 0 1 0 1.546407,1.563589 l 2.525798,-2.525797 2.525798,2.525797 A 1.0997771,1.0997771 0 1 0 22.11017,29.103285 L 19.584373,26.59467 22.11017,24.068872 a 1.0997771,1.0997771 0 0 0 -0.910661,-1.890053 1.0997771,1.0997771 0 0 0 -0.635745,0.326463 l -2.525798,2.525798 -2.525798,-2.525798 a 1.0997771,1.0997771 0 0 0 -0.89348,-0.326463 z"
+       id="path2989"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

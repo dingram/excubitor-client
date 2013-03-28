@@ -4,5 +4,8 @@
     <string name="app_name">Excubitor</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    
+    <string name="register">Register</string>
+    <string name="register_intro">Select an Ingress account to receive notifications for.</string>
 
 </resources>
