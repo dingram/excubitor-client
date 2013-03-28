@@ -16,7 +16,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
 
-public class Register extends Activity {
+public class RegisterActivity extends Activity {
 
     private Spinner mAccount;
     
@@ -43,22 +43,12 @@ public class Register extends Activity {
                 new OnClickListener() {
             @Override
             public void onClick(View v) {
-                register();
+                getSharedPreferences("excubitor prefs", MODE_PRIVATE)
+                        .edit()
+                        .putString("pref account", (String) mAccount.getSelectedItem())
+                        .commit();
+                // TODO: GCMRegistrar.register(this, "sender id");
             }
         });
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.activity_register, menu);
-        return true;
-    }
-    
-    private void register() {
-        getSharedPreferences(Utils.PREFS, MODE_PRIVATE)
-                .edit()
-                .putString(Utils.PREF_ACCOUNT, (String) mAccount.getSelectedItem())
-                .commit();
-        // TODO: GCMRegistrar.register(this, "sender id");
     }
 }
