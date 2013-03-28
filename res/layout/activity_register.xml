@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  		    xmlns:tools="http://schemas.android.com/tools"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:padding="16dp"
+			    tools:context=".Register">
+
+    <TextView android:id="@+id/register_intro"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/register_intro"
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <Spinner android:id="@+id/ingress_account_spinner"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/register_intro"
+             android:gravity="bottom" />
+    
+    <Button android:id="@+id/register_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="@string/register" />
+
+</RelativeLayout>
