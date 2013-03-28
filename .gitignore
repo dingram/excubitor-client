@@ -1,0 +1,5 @@
+.*.sw?
+/.settings
+/bin
+/gen
+/market/*.apk
