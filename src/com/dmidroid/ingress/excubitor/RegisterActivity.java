@@ -9,7 +9,6 @@ import android.accounts.AccountManager;
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Patterns;
-import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ArrayAdapter;
@@ -45,7 +44,7 @@ public class RegisterActivity extends Activity {
             public void onClick(View v) {
                 getSharedPreferences("excubitor prefs", MODE_PRIVATE)
                         .edit()
-                        .putString("pref account", (String) mAccount.getSelectedItem())
+                        .putString("account", (String) mAccount.getSelectedItem())
                         .commit();
                 // TODO: GCMRegistrar.register(this, "sender id");
             }
